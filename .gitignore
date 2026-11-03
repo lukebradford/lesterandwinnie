@@ -1,0 +1,7 @@
+# Source home movies are far too large for git; web clips live in site/media/reels
+*.m4v
+*.m4v.mp4
+/*.mp4
+/*.mov
+node_modules/
+.DS_Store

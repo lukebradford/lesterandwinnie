@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lukebradford.github.io/lesterandwinnie/sitemap.xml
