@@ -74,7 +74,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - **Years in Sierra Leone:** sources say 16 or 17. We use 17, which is Winnie's own figure.
 - **Lester's arrival:** Dec 20 or 21. We use 21, from Winnie's letter, and note the other date.
 - **Tail gunner:** trained only; never deployed. The family bio says Army Specialized Reserve Program at UMaine, planning to be a pilot; the NSA says he joined the Army in June 1944 and trained as a tail gunner.
-- **Khunjerab Pass altitude:** the memoir's photo caption (p158) says "17,000 ft."; the pass is actually about 4,693 m / 15,400 ft. The site currently repeats the memoir figure **[open — fix wording]**.
+- **Khunjerab Pass altitude:** the memoir's photo caption (p158) says "17,000 ft."; the pass is actually about 4,693 m / 15,400 ft (Wikipedia, cited as source 14). The site caption now gives both figures **[resolved Nov 2026]**.
 - **Departure for Sudan:** Lester's Nov 1979 letter (memoir) says they left Mt. Vernon in September 1979, reached Khartoum by Sept 24 and Juba on Oct 24. Lester's agroforestry essay says "In 1980". The site says "In October 1979". Winnie's letter also says "the four youngest are in school in various places", so "with the children grown" is loose.
 - **Mount Vernon move:** family bio says the WSU job offer came in 1971; the memoir's chapter heading says "Mt. Vernon 1972–1979" and the 1979 letter says "severing ties of 10 years". Winnie's residency ran to July 30, 1971.
 - **Pakistan base:** the memoir letters are headed "Tarbela, Pakistan"; the family bio says Peshawar.
@@ -92,6 +92,10 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 ## Verified against the memoir OCR (Nov 2026)
 Checked directly in the memoir text: 22 missionaries overnight; the 12:45 train and the 6 p.m. phone call; the District Commissioner amending the licence; Shenge honeymoon; "four of our five children were born there"; "home to us for seventeen years"; Yale Institute of Far Eastern Languages 1950 and the tumbling story; Festival of Britain choir; 296 leprosy patients; Medical Board secretary from March 1967; Beth Marvin "a nurse practitioner"; the Birth Center "on Division Street not far from Skagit Valley Hospital"; "Nearly 200 babies ... since January, 1975"; the Disciplinary Board hearing and crowded waiting room; Juba government hospital and its midwife school; Netherlands Embassy grant for three birthing centers; Afghan medical team training at Tarbela; pediatrics residency at Earl K. Long July 1969–July 1971; hospice volunteering; the Bradford House renaming (Dec 2005 letter).
 
+## Letters chapter (Nov 2026)
+Excerpts on the site, checked against the page scans (PDF page numbers): London May 28, 1951 (p46); Rotifunk Dec 1952 wedding letter (p57–61; the shopping list is p61); Rotifunk Mar 1953, written by Lester (p62–63); Kayima Nov 1953 (p66); Kayima Feb 1955 (p69); Manjama Jul 1956, written by Lester (p73–75); Manjama Oct 1965 (p101); Juba Nov 1979, Lester then Winnie (p129); Tarbela Mar 1985 (p149); El Obeid Mar 1989 (p156–157). Letters not marked "(Written by Lester)" are Winnie's. Excerpts were chosen to avoid naming the children. Photo p65 (volunteers thatching the Kayima kitchen, 1953) is now used.
+Other good letters not yet used: Rotifunk May 1, 1952 (Christmas callers, "no roads into Rotifunk"); Kayima Aug 1953 snakes (Lester); Kayima May 1954 (prenatal clinic of 15 women); Manjama Dec 1964 (death of chief Alimany); Juba Sept 1979 (packing into four categories — names family); Tarbela Nov 1984 and Nov 1985 (village visit with the Pushto teacher).
+
 ## Open questions
 - Which Sudan USAID project? (DAI; "manpower development"; Juba ag and forestry colleges.)
 - Lester's PhD/EdD PDF returned 403. Its vita may have more detail.
@@ -99,7 +103,7 @@ Checked directly in the memoir text: 22 missionaries overnight; the 12:45 train 
 - The memoir does not give the June 22, 1968 departure date in the OCR text; confirm which page it comes from.
 
 ## Next ideas
-- A "Letters" page built from short excerpts of the memoir's 1951–1989 letters, each with its date and place.
+- ~~A "Letters" chapter from the memoir's letters~~ — done Nov 2026 (chapter viii). Could grow into its own page with more letters.
 - Use more memoir photos: Manjama goats, the Kator opening invitation, the 1968 farewell address, the Birth Center clippings.
 - Short separate pages for each of them (better for SEO), plus a printable one-page obituary.
 - Transcribed newspaper clippings with alt text.

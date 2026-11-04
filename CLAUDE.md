@@ -11,7 +11,7 @@ Read `spec.txt` first. It is the brief. In short: this is a public memorial webs
 
 ## Layout
 - `site/` holds the deployed static site. It has no framework and no build step. GitHub Pages serves it via `.github/workflows/pages.yml` on every push to `main`.
-  - `index.html` is the single long-form page: hero, then chapters i–ix (Beginnings, Rotifunk, Three days, Reels, Skagit, Sudan & Pakistan, Map, Legacy, Timeline, Sources).
+  - `index.html` is the single long-form page: hero, then chapters i–xii (Beginnings, New Haven, Three days, Sierra Leone, Reels, Skagit, Sudan & Pakistan, Never retired, Letters, Map, Legacy, Timeline, Sources).
   - `css/style.css` contains design tokens in `:root`: paper / ink / laterite / canopy / palm.
   - `js/main.js` is progressive enhancement only. It handles reveals, the nav, video play-when-visible, the lightbox and the map chapters.
   - `media/reels/*.mp4|jpg` are muted H.264 clips (640px, CRF 27) with posters.
