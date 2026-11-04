@@ -1,0 +1,69 @@
+{
+ "_comment": "Pixels to trim from each edge of the source scan before resizing, to remove scanner borders and black lines. Applied by tools/photos.py.",
+ "memoir-babies-her-specialty": {
+  "top": 12,
+  "right": 18,
+  "bottom": 20,
+  "left": 12
+ },
+ "memoir-khunjerab-1987": {
+  "top": 8,
+  "right": 14,
+  "bottom": 8,
+  "left": 8
+ },
+ "memoir-manjama-health-center": {
+  "top": 8,
+  "right": 10,
+  "bottom": 8,
+  "left": 6
+ },
+ "memoir-mv-birth-center-house": {
+  "top": 10,
+  "right": 14,
+  "bottom": 18,
+  "left": 16
+ },
+ "memoir-together-late": {
+  "top": 8,
+  "right": 8,
+  "bottom": 8,
+  "left": 8
+ },
+ "memoir-wedding-1952": {
+  "top": 10,
+  "right": 24,
+  "bottom": 14,
+  "left": 10
+ },
+ "memoir-el-obeid-1989": {
+  "top": 8,
+  "right": 8,
+  "bottom": 8,
+  "left": 8
+ },
+ "memoir-kayima-home-1953": {
+  "top": 6,
+  "right": 6,
+  "bottom": 6,
+  "left": 6
+ },
+ "memoir-enid-1951": {
+  "top": 8,
+  "right": 8,
+  "bottom": 8,
+  "left": 8
+ },
+ "memoir-yale-1950": {
+  "top": 6,
+  "right": 6,
+  "bottom": 6,
+  "left": 6
+ },
+ "memoir-lester-poppies": {
+  "top": 10,
+  "right": 10,
+  "bottom": 10,
+  "left": 10
+ }
+}

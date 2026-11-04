@@ -1,15 +1,19 @@
 """Resize every image in assets-src/photos into site/media/photos as WebP.
 Run: python3 tools/photos.py   (needs Pillow). Writes <name>-640.webp and <name>-1280.webp
-(never upscales) and prints a JSON map of intrinsic sizes for width/height attributes."""
+(never upscales) and prints a JSON map of intrinsic sizes for width/height attributes.
+Edge trims (to cut scanner borders and black lines) are read from assets-src/crops.json."""
 import json, pathlib
 from PIL import Image, ImageOps
 root = pathlib.Path(__file__).resolve().parent.parent
 src, out = root / "assets-src/photos", root / "site/media/photos"
 out.mkdir(parents=True, exist_ok=True)
+crops = json.loads((root / "assets-src/crops.json").read_text())
 sizes = {}
 for f in sorted(src.iterdir()):
     if f.suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp"}: continue
     im = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
+    c = crops.get(f.stem)
+    if c: im = im.crop((c["left"], c["top"], im.width - c["right"], im.height - c["bottom"]))
     sizes[f.stem] = im.size
     for w in (640, 1280):
         if w > im.width and w != 640: continue

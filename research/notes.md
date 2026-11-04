@@ -17,6 +17,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
      - p158: Khunjerab 1987, El Obeid 1989
      - p193, p208: later portraits
      - p1: cover photo of Winnie aboard the Queen Elizabeth, 1951
+   - Scanner borders and black edge lines on the memoir scans are trimmed via `assets-src/crops.json` (pixels per edge), applied by `tools/photos.py`. Add an entry there rather than editing the source JPEG.
    - Unused photo-rich pages: 16, 21–23, 27, 31, 41–49, 54, 61, 63, 66, 69, 72–76, 80, 84–90, 92–96, 98, 104–106, 115, 125–126, 135–136, 139, 143–144, 151, 154, 160, 162–165, 169–171, 174, 182, 189.
 2. **"A Life in Tropical Agroforestry"** by Lester and Winnie Bradford, Lester's first-person account: https://docs.google.com/document/d/1vLC6nuOByEyWmUHOXaU20hyTkzMpssLaI8dbWa1lN1s/edit
 3. **Lester's family biography** (Google Sites): https://sites.google.com/view/lesterezrabradford. Winnie's: https://sites.google.com/view/WinifredBradford (not yet read directly).
@@ -77,6 +78,8 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 ## Home movies (family collection)
 - Panama file 0:00–15:15 is Panama 1955. This is NOT the Bradfords. From 15:15 on it is Bradford footage. The *African Dawn* send-off is at 24:37–25:31.
 - Fitzgerald file: 1970s canoe trips and gatherings.
+- The family close-up within the *African Dawn* send-off runs 25:20.6–25:30.8 (`site/media/reels/hero-dawn.mp4`, used in the hero).
+- **Only clips that clearly show Lester and/or Winnie are published** (Nov 2026 decision): the *African Dawn* send-off and "Gathered on the lawn". The other 2021 clips (meadow, picnic, snow, wagon, lake, reunion, canoe, river) were removed because nobody can confirm they appear in them. Captions still never name individuals.
 
 ## Open questions
 - Which Sudan USAID project? (DAI; "manpower development"; Juba ag and forestry colleges.)
