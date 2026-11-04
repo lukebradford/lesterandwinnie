@@ -73,7 +73,15 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - **Arrival in Sierra Leone:** Sherbro says 1950; the memoir says Aug 1951. We use 1951.
 - **Years in Sierra Leone:** sources say 16 or 17. We use 17, which is Winnie's own figure.
 - **Lester's arrival:** Dec 20 or 21. We use 21, from Winnie's letter, and note the other date.
-- **Tail gunner:** trained only; never deployed.
+- **Tail gunner:** trained only; never deployed. The family bio says Army Specialized Reserve Program at UMaine, planning to be a pilot; the NSA says he joined the Army in June 1944 and trained as a tail gunner.
+- **Khunjerab Pass altitude:** the memoir's photo caption (p158) says "17,000 ft."; the pass is actually about 4,693 m / 15,400 ft. The site currently repeats the memoir figure **[open — fix wording]**.
+- **Departure for Sudan:** Lester's Nov 1979 letter (memoir) says they left Mt. Vernon in September 1979, reached Khartoum by Sept 24 and Juba on Oct 24. Lester's agroforestry essay says "In 1980". The site says "In October 1979". Winnie's letter also says "the four youngest are in school in various places", so "with the children grown" is loose.
+- **Mount Vernon move:** family bio says the WSU job offer came in 1971; the memoir's chapter heading says "Mt. Vernon 1972–1979" and the 1979 letter says "severing ties of 10 years". Winnie's residency ran to July 30, 1971.
+- **Pakistan base:** the memoir letters are headed "Tarbela, Pakistan"; the family bio says Peshawar.
+- **Order of Sudan/Pakistan postings:** Lester's essay narrates El Obeid before Pakistan; the memoir dates El Obeid 1989 (after Pakistan 1984–87). We follow the memoir.
+- **Yale studies:** Lester's essay says "three years of botany and two years in the Forestry School"; the family bio says BS in natural sciences (1950). Both are used on the site.
+- **"Paid her own way":** supported — at York College an uncle sent $10 a month and she earned the rest babysitting, clerking at Woolworth's, egg candling and washing dishes (memoir, York College chapter).
+- **"Expanded building" (Bradford House):** memoir only says the day care facility "was renamed The Bradford House" (Dec 2005 letter) with a dedication open house. "Expanded" is unverified.
 
 ## Home movies (family collection)
 - Panama file 0:00–15:15 is Panama 1955. This is NOT the Bradfords. From 15:15 on it is Bradford footage. The *African Dawn* send-off is at 24:37–25:31.
@@ -81,10 +89,14 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - The family close-up within the *African Dawn* send-off runs 25:20.6–25:30.8 (`site/media/reels/hero-dawn.mp4`, used in the hero).
 - **Only clips that clearly show Lester and/or Winnie are published** (Nov 2026 decision): the *African Dawn* send-off and "Gathered on the lawn". The other 2021 clips (meadow, picnic, snow, wagon, lake, reunion, canoe, river) were removed because nobody can confirm they appear in them. Captions still never name individuals.
 
+## Verified against the memoir OCR (Nov 2026)
+Checked directly in the memoir text: 22 missionaries overnight; the 12:45 train and the 6 p.m. phone call; the District Commissioner amending the licence; Shenge honeymoon; "four of our five children were born there"; "home to us for seventeen years"; Yale Institute of Far Eastern Languages 1950 and the tumbling story; Festival of Britain choir; 296 leprosy patients; Medical Board secretary from March 1967; Beth Marvin "a nurse practitioner"; the Birth Center "on Division Street not far from Skagit Valley Hospital"; "Nearly 200 babies ... since January, 1975"; the Disciplinary Board hearing and crowded waiting room; Juba government hospital and its midwife school; Netherlands Embassy grant for three birthing centers; Afghan medical team training at Tarbela; pediatrics residency at Earl K. Long July 1969–July 1971; hospice volunteering; the Bradford House renaming (Dec 2005 letter).
+
 ## Open questions
 - Which Sudan USAID project? (DAI; "manpower development"; Juba ag and forestry colleges.)
 - Lester's PhD/EdD PDF returned 403. Its vita may have more detail.
 - Can we find a public photo of the Martyrs Memorial Church today?
+- The memoir does not give the June 22, 1968 departure date in the OCR text; confirm which page it comes from.
 
 ## Next ideas
 - A "Letters" page built from short excerpts of the memoir's 1951–1989 letters, each with its date and place.
