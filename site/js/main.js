@@ -132,6 +132,32 @@
   const order = chapterButtons.map((b) => b.dataset.chapter);
   let autoplayTimer = null;
   let mapReady = null;
+  let zoomFrame = 0;
+
+  /* The Roots and Yale chapters zoom the map in on the United States; the others show the world.
+     The SVG carries both viewBoxes (data-view-us / data-view-world, written by tools/build-map.mjs).
+     --zoom lets the stylesheet keep markers and strokes the same size on screen. */
+  const setView = (svg, box) => {
+    svg.setAttribute("viewBox", box.map((n) => n.toFixed(2)).join(" "));
+    svg.style.setProperty("--zoom", (1200 / box[2]).toFixed(3));
+  };
+  // Resolves when the view has settled (immediately if nothing changes).
+  const zoomTo = (svg, chapter) => new Promise((done) => {
+    const key = chapter === "roots" || chapter === "yale" ? "viewUs" : "viewWorld";
+    const to = (svg.dataset[key] || "").split(" ").map(Number);
+    if (to.length !== 4 || to.some(Number.isNaN)) return done();
+    const from = svg.getAttribute("viewBox").split(" ").map(Number);
+    if (from.every((v, i) => Math.abs(v - to[i]) < 0.05)) return done();
+    cancelAnimationFrame(zoomFrame);
+    if (reduceMotion) { setView(svg, to); return done(); }
+    const t0 = performance.now(), dur = 1500;
+    const step = (now) => {
+      const t = Math.min(1, (now - t0) / dur), k = 1 - Math.pow(1 - t, 3);
+      setView(svg, from.map((v, i) => v + (to[i] - v) * k));
+      if (t < 1) zoomFrame = requestAnimationFrame(step); else done();
+    };
+    zoomFrame = requestAnimationFrame(step);
+  });
 
   const showChapter = (chapter, { user = false } = {}) => {
     const svg = $("svg", holder);
@@ -149,17 +175,17 @@
     chapterButtons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.chapter === chapter)));
     const btn = chapterButtons[idx];
     if (caption && btn) caption.innerHTML = btn.dataset.caption;
-    // On narrow screens the map pans sideways: bring the active chapter's places into view.
+    // On narrow screens the map pans sideways: once the zoom settles, bring the chapter's places into view.
     const box = holder.closest(".map-box");
-    if (box && box.scrollWidth > box.clientWidth + 4) {
+    zoomTo(svg, chapter).then(() => {
+      if (!box || box.scrollWidth <= box.clientWidth + 4) return;
       const lit = $$(".jmap-place.on", svg);
-      if (lit.length) {
-        const b0 = box.getBoundingClientRect();
-        const xs = lit.map((el) => { const r = el.getBoundingClientRect(); return r.left + r.width / 2 - b0.left + box.scrollLeft; });
-        const mid = (Math.min(...xs) + Math.max(...xs)) / 2;
-        box.scrollTo({ left: mid - box.clientWidth / 2, behavior: reduceMotion ? "auto" : "smooth" });
-      }
-    }
+      if (!lit.length) return;
+      const b0 = box.getBoundingClientRect();
+      const xs = lit.map((el) => { const r = el.getBoundingClientRect(); return r.left + r.width / 2 - b0.left + box.scrollLeft; });
+      const mid = (Math.min(...xs) + Math.max(...xs)) / 2;
+      box.scrollTo({ left: mid - box.clientWidth / 2, behavior: reduceMotion ? "auto" : "smooth" });
+    });
     if (user) stopAutoplay();
   };
   const stopAutoplay = () => { clearInterval(autoplayTimer); autoplayTimer = null; };
@@ -196,7 +222,7 @@
   /* ---- Share button (Web Share API where available) ---- */
   $$("[data-share]").forEach((b) => {
     b.addEventListener("click", async () => {
-      const data = { title: document.title, text: "A memorial to Lester and Winnie Bradford — a forester and a physician who served around the world.", url: location.href.split("#")[0] };
+      const data = { title: document.title, text: "A memorial to Lester and Winnie Bradford, a forester and a physician who served around the world.", url: location.href.split("#")[0] };
       try {
         if (navigator.share) await navigator.share(data);
         else { await navigator.clipboard.writeText(data.url); b.textContent = "Link copied"; }

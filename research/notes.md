@@ -20,7 +20,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
    - Scanner borders and black edge lines on the memoir scans are trimmed via `assets-src/crops.json` (pixels per edge), applied by `tools/photos.py`. Add an entry there rather than editing the source JPEG.
    - Unused photo-rich pages: 16, 21–23, 27, 31, 41–49, 54, 61, 63, 66, 69, 72–76, 80, 84–90, 92–96, 98, 104–106, 115, 125–126, 135–136, 139, 143–144, 151, 154, 160, 162–165, 169–171, 174, 182, 189.
 2. **"A Life in Tropical Agroforestry"** by Lester and Winnie Bradford, Lester's first-person account: https://docs.google.com/document/d/1vLC6nuOByEyWmUHOXaU20hyTkzMpssLaI8dbWa1lN1s/edit
-3. **Lester's family biography** (Google Sites): https://sites.google.com/view/lesterezrabradford. Winnie's: https://sites.google.com/view/WinifredBradford (not yet read directly).
+3. **Lester's family biography** (Google Sites): https://sites.google.com/view/lesterezrabradford. Winnie's: https://sites.google.com/view/WinifredBradford (not yet read directly). The page names no author; the family (site owner, Nov 2026) says it was created and is maintained by Ethan Bradford, and the page itself refers to "a story Lester related to Ethan" and links to his blog. The site credits him on that basis.
 4. **Ethan Bradford's memorial pages.**
    - Lester: https://ethanbradford.blogspot.com/2019/03/lester-ezra-bradford-information.html
    - Winnie: https://ethanbradford.blogspot.com/2020/07/winifred-ruth-smith-bradford-information.html
@@ -84,10 +84,10 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - **"Expanded building" (Bradford House):** memoir only says the day care facility "was renamed The Bradford House" (Dec 2005 letter) with a dedication open house. "Expanded" is unverified.
 
 ## Home movies (family collection)
-- Panama file 0:00–15:15 is Panama 1955. This is NOT the Bradfords. From 15:15 on it is Bradford footage. The *African Dawn* send-off is at 24:37–25:31.
+- Panama file 0:00–15:15 is Panama 1955. This is NOT the Bradfords. From 15:15 on it is Bradford footage. The *African Dawn* sendoff is at 24:37–25:31.
 - Fitzgerald file: 1970s canoe trips and gatherings.
-- The family close-up within the *African Dawn* send-off runs 25:20.6–25:30.8 (`site/media/reels/hero-dawn.mp4`, used in the hero).
-- **Only clips that clearly show Lester and/or Winnie are published** (Nov 2026 decision): the *African Dawn* send-off and "Gathered on the lawn". The other 2021 clips (meadow, picnic, snow, wagon, lake, reunion, canoe, river) were removed because nobody can confirm they appear in them. Captions still never name individuals.
+- The family close-up within the *African Dawn* sendoff runs 25:20.6–25:30.8 (`site/media/reels/hero-dawn.mp4`, used in the hero).
+- **Only clips that clearly show Lester and/or Winnie are published** (Nov 2026 decision): the *African Dawn* sendoff and "Gathered on the lawn". The other 2021 clips (meadow, picnic, snow, wagon, lake, reunion, canoe, river) were removed because nobody can confirm they appear in them. Captions never name individuals, with one exception from the family (Nov 2026): the "Gathered on the lawn" clip shows Lester's parents, Fannie and Everett, from 0:06, with several of Lester's siblings. This is family knowledge, not a public source, so it carries no citation.
 
 ## Verified against the memoir OCR (Nov 2026)
 Checked directly in the memoir text: 22 missionaries overnight; the 12:45 train and the 6 p.m. phone call; the District Commissioner amending the licence; Shenge honeymoon; "four of our five children were born there"; "home to us for seventeen years"; Yale Institute of Far Eastern Languages 1950 and the tumbling story; Festival of Britain choir; 296 leprosy patients; Medical Board secretary from March 1967; Beth Marvin "a nurse practitioner"; the Birth Center "on Division Street not far from Skagit Valley Hospital"; "Nearly 200 babies ... since January, 1975"; the Disciplinary Board hearing and crowded waiting room; Juba government hospital and its midwife school; Netherlands Embassy grant for three birthing centers; Afghan medical team training at Tarbela; pediatrics residency at Earl K. Long July 1969–July 1971; hospice volunteering; the Bradford House renaming (Dec 2005 letter).

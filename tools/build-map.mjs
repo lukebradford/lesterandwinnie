@@ -19,10 +19,10 @@ const r = (n) => Math.round(n * 10) / 10;
 
 // [id, label, lon, lat, chapter, labelDx, labelDy, anchor]
 export const places = [
-  ["enid", "Enid, Okla.", -97.88, 36.4, "roots", -8, 4, "end"],
-  ["york", "York, Neb.", -97.59, 40.87, "roots", -6, -9, "end"],
+  ["enid", "Enid, Oklahoma", -97.88, 36.4, "roots", -8, 4, "end"],
+  ["york", "York, Nebraska", -97.59, 40.87, "roots", -6, -9, "end"],
   ["omaha", "Omaha", -95.94, 41.26, "roots", 6, -8, "start"],
-  ["redbird", "Red Bird Mission, Ky.", -83.56, 36.94, "roots", 4, 16, "start"],
+  ["redbird", "Red Bird Mission, Kentucky", -83.56, 36.94, "roots", 4, 16, "start"],
   ["maine", "Locke Mills, Maine", -70.7, 44.4, "roots", 8, -6, "start"],
   ["missoula", "Missoula", -113.99, 46.87, "roots", 0, -10, "middle"],
   ["cavejunction", "Cave Junction", -123.65, 42.16, "roots", -2, 18, "start"],
@@ -34,7 +34,7 @@ export const places = [
   ["kayima", "Kayima", -11.0, 8.88, "africa", 8, -6, "start"],
   ["manjama", "Manjama, Bo", -11.74, 7.96, "africa", 8, 12, "start"],
   ["batonrouge", "Louisiana", -91.19, 30.45, "home", -8, 12, "end"],
-  ["mountvernon", "Mount Vernon, Wash.", -122.33, 48.42, "home", 8, -8, "start"],
+  ["mountvernon", "Mount Vernon, Washington", -122.33, 48.42, "home", 8, -14, "start"],
   ["juba", "Juba", 31.58, 4.85, "abroad", 8, 12, "start"],
   ["khartoum", "Khartoum", 32.53, 15.5, "abroad", 8, -6, "start"],
   ["elobeid", "El Obeid", 30.22, 13.18, "abroad", -8, 6, "end"],
@@ -92,8 +92,21 @@ function arc(a, b) {
   return "M" + pts.join("L");
 }
 
+// Per-chapter views. The Roots and Yale chapters zoom in on the United States; the rest show the world.
+// Each view keeps the map's aspect ratio so the SVG never letterboxes. main.js animates the viewBox between them.
+function viewFor(chapters, pad = 0.2) {
+  const pts = places.filter((p) => chapters.includes(p[4])).map((p) => projection([p[2], p[3]]));
+  let x0 = Math.min(...pts.map((p) => p[0])), x1 = Math.max(...pts.map((p) => p[0]));
+  let y0 = Math.min(...pts.map((p) => p[1])), y1 = Math.max(...pts.map((p) => p[1]));
+  let w = (x1 - x0) * (1 + 2 * pad), h = (y1 - y0) * (1 + 2 * pad);
+  if (w / h < W / H) w = h * (W / H); else h = w * (H / W);
+  const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+  return [cx - w / 2, cy - h / 2, w, h].map(r).join(" ");
+}
+const views = { world: `0 0 ${W} ${H}`, us: viewFor(["roots", "yale"]) };
+
 const grat = path(geoGraticule10());
-let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" class="jmap" role="img" aria-labelledby="jmap-title jmap-desc">
+let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${views.world}" data-view-world="${views.world}" data-view-us="${views.us}" class="jmap" role="img" aria-labelledby="jmap-title jmap-desc">
 <title id="jmap-title">Map of the places Lester and Winnie Bradford lived and worked</title>
 <desc id="jmap-desc">From Oklahoma, Nebraska, Kentucky, Maine, Montana, Oregon and Connecticut to London and Sierra Leone (Freetown, Rotifunk, Kayima, Manjama); then Louisiana and Washington State; then Juba, Khartoum and El Obeid in Sudan and Tarbela in Pakistan; and volunteer work in Ukraine, Russia, Mauritania, Zimbabwe, South Africa, Bolivia, Brazil, Haiti, the Philippines and Indonesia.</desc>
 <path class="jmap-grat" d="${grat}"/>
@@ -106,11 +119,11 @@ ${routes.map(([a, b, c]) => `<path class="jmap-route" data-chapter="${c}" d="${a
 ${places
   .map(([id, label, lon, lat, c, dx, dy, anchor]) => {
     const [x, y] = projection([lon, lat]);
-    return `<g class="jmap-place" data-chapter="${c}" data-id="${id}" transform="translate(${r(x)} ${r(y)})"><circle r="4"/><circle class="jmap-pulse" r="4"/><text x="${dx}" y="${dy}" text-anchor="${anchor}">${label}</text></g>`;
+    return `<g class="jmap-place" data-chapter="${c}" data-id="${id}" transform="translate(${r(x)} ${r(y)})"><g class="jmap-marker"><circle r="4"/><circle class="jmap-pulse" r="4"/><text x="${dx}" y="${dy}" text-anchor="${anchor}">${label}</text></g></g>`;
   })
   .join("\n")}
 </g>
 </svg>`;
 svg = svg.replace(/(\d+\.\d)\d+/g, "$1"); // trim precision
 writeFileSync(new URL("../site/media/journey-map.svg", here), svg);
-console.log("wrote journey-map.svg", (svg.length / 1024).toFixed(1) + " KB");
+console.log("wrote journey-map.svg", (svg.length / 1024).toFixed(1) + " KB", "US view:", views.us);
