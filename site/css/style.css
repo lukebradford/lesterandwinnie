@@ -95,6 +95,7 @@ a:hover { color: var(--indigo); text-decoration-thickness: 2px; }
 .hero h1 { margin: 0; font: 380 clamp(3.4rem, 1.4rem + 8.2vw, 8.6rem) / 0.88 var(--display); letter-spacing: -0.035em; font-variation-settings: "SOFT" 50, "WONK" 1; }
 .amp { font-family: "Crimson Amp", var(--display); font-style: normal; font-weight: 400; }
 .hero h1 .amp { display: inline-block; color: var(--indigo); font-size: 1.04em; line-height: 0; vertical-align: baseline; margin: 0 0.02em 0 0.04em; }
+.chapter-head h2 .amp { color: var(--indigo); font-size: 1.04em; margin: 0 0.02em 0 0.04em; }
 .hero h1 .surname { display: block; font-size: 0.38em; letter-spacing: 0.32em; text-transform: uppercase; font-weight: 450; margin-top: 0.5em; color: var(--ink-2); }
 .hero .lede { max-width: 31rem; margin: 1.8rem 0 0; font-size: clamp(1.12rem, 1rem + 0.5vw, 1.38rem); line-height: 1.5; color: var(--ink-2); }
 .hero-dates { display: flex; flex-wrap: wrap; gap: 0.4rem 1.6rem; margin-top: 2rem; color: var(--ink-3); }
