@@ -32,7 +32,7 @@ export const places = [
   ["freetown", "Freetown", -13.23, 8.48, "africa", -8, -6, "end"],
   ["rotifunk", "Rotifunk", -12.68, 8.23, "africa", -8, 12, "end"],
   ["kayima", "Kayima", -11.0, 8.88, "africa", 8, -6, "start"],
-  ["manjama", "Manjama, Bo", -11.74, 7.96, "africa", 8, 12, "start"],
+  ["manjama", "Manjama and Bo", -11.74, 7.96, "africa", 8, 12, "start"],
   ["bogalusa", "Bogalusa, Louisiana", -89.85, 30.79, "home", -8, 12, "end"],
   ["mountvernon", "Mount Vernon, Washington", -122.33, 48.42, "home", 8, -14, "start"],
   ["juba", "Juba, Sudan", 31.58, 4.85, "abroad", 8, 12, "start"],
