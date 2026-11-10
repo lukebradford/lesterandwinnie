@@ -276,20 +276,19 @@ button.zoom:focus-visible { outline: 2px solid var(--indigo); outline-offset: 4p
 .timeline { max-width: 60rem; margin: 0 auto; padding: 0; list-style: none; position: relative; }
 .timeline::before { content: ""; position: absolute; left: 8.75rem; top: 0.6rem; bottom: 0.6rem; width: 1px; background: var(--rule); }
 .timeline li { display: grid; grid-template-columns: 8.75rem minmax(0, 1fr); gap: 0 1.2rem; padding: 0.85rem 0; position: relative; }
-.timeline li::before { content: ""; position: absolute; left: calc(8.75rem - 4px); top: 1.45rem; width: 9px; height: 9px; border-radius: 50%; background: var(--paper); border: 1.5px solid var(--indigo); }
+.timeline li::before { content: ""; position: absolute; left: calc(8.75rem - 5px); top: 1.4rem; width: 11px; height: 11px; border-radius: 50%; background: var(--paper); border: 1.5px solid var(--indigo); }
 .timeline li.w::before { background: var(--indigo); }
-.timeline li.l::before { border-color: var(--moss); }
-.timeline li.both::before { background: var(--amber); border-color: var(--amber); }
+.timeline li.both::before, .timeline-key .k-b::before { background: radial-gradient(circle, var(--indigo) 0 2.2px, var(--paper) 2.7px); }
 .timeline time { font: 400 1.35rem/1.2 var(--display); font-variant-numeric: lining-nums; text-align: right; padding-right: 1.1rem; color: var(--ink-2); white-space: nowrap; }
 .timeline p { margin: 0; padding-left: 0.5rem; }
 .timeline .who { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); display: block; }
 .timeline-key { max-width: 60rem; margin: 0 auto 2rem; display: flex; gap: 1.4rem; flex-wrap: wrap; color: var(--ink-3); }
-.timeline-key span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 0.5rem; vertical-align: 0; border: 1.5px solid; }
+.timeline-key span::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 0.5rem; vertical-align: 0; border: 1.5px solid; }
 .timeline-key .k-w::before { background: var(--indigo); border-color: var(--indigo); }
-.timeline-key .k-l::before { border-color: var(--moss); }
-.timeline-key .k-b::before { background: var(--amber); border-color: var(--amber); }
+.timeline-key .k-l::before { border-color: var(--indigo); background: var(--paper); }
+.timeline-key .k-b::before { border-color: var(--indigo); }
 @media (max-width: 600px) {
-  .timeline::before { left: 4px; }
+  .timeline::before { left: 5px; }
   .timeline li { grid-template-columns: 1fr; padding-left: 1.6rem; }
   .timeline li::before { left: 0; top: 1.25rem; }
   .timeline time { text-align: left; font-size: 1.15rem; padding-right: 0; }
