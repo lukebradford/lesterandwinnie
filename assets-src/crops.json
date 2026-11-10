@@ -58,7 +58,13 @@
   "top": 6,
   "right": 6,
   "bottom": 6,
-  "left": 6
+  "left": 6,
+  "descreen": 1.6,
+  "sharpen": [
+   2.5,
+   150,
+   1
+  ]
  },
  "memoir-lester-poppies": {
   "top": 10,

@@ -8,7 +8,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
    - Page numbers below are PDF page numbers.
    - Photos already extracted to `assets-src/photos/memoir-*.jpg`:
      - p3: Lester and Winnie in Enid, 1951
-     - p35: at Yale, 1950
+     - p35: at Yale, 1950 (the scan is dithered; `crops.json` descreens it with a 1.6 px blur, then unsharp-masks it after resizing)
      - p60: wedding, the Rotifunk church
      - p64: Kayima home, 1953
      - p79: Manjama Health Center
@@ -59,6 +59,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - Yale: BS in natural sciences 1950 and MF 1951 (YAM lists '49 '50 '51MF). Cornell: two semesters of tropical agriculture.
 - Four USFS summers, two of them smokejumping out of Missoula MT and Cave Junction OR.
 - Sailed on the S.S. Ferngulf and reached the Freetown mission house about 6 p.m. on Sun Dec 21, 1952. Took the Monday 12:45 train to Rotifunk. Married Tue Dec 23 (p57–61). The NSA and Google bio say Dec 20. Honeymoon at Shenge.
+- **Which cover crop? [open, dead end Nov 2026]** No public source names it. Checked: full OCR of the memoir (all 210 pp.; the only Kayima farming passage, p66, mentions just rice), every letter on Lester's Google Site (incl. the 1953 Kayima letter), the agroforestry essay ("I found a cover crop that helped maintain soil fertility without forest fallow"), the smokejumper obituary, web searches. Possible offline lead: Methodist mission board reports or *World Outlook*, c. 1953–56 (GCAH archives).
 - Kayima (Kono) projects: ox-plowing, cover crop, Rhode Island Reds, wells, gravity-feed water, adult literacy. Manjama (Mende) projects: pigs, rabbits, eggs, gardens, grafted citrus, swamp rice (3× yield), rat-proof granary, teak, tilapia, Nubian goats via Heifer Project, apprentices and youth clubs.
 - 1968 LSU Extension; EdD LSU 1971, "A Comparison of Knowledge of Forestry Concepts With the Adoption of Forest Practices in Two Louisiana Parishes".
 - 1971–79: WSU county agent in Mount Vernon (4-H, education, forestry; Skagit & Island counties).
@@ -86,6 +87,8 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 ## Home movies (family collection)
 - Panama file 0:00–15:15 is Panama 1955. This is NOT the Bradfords. From 15:15 on it is Bradford footage. The *African Dawn* sendoff is at 24:37–25:31.
 - Fitzgerald file: 1970s canoe trips and gatherings.
+- The ship footage itself starts at 24:39.0 (scene cut found with ffmpeg's scene filter). The `african-dawn.mp4` reel now runs 24:39.1–25:31 (52 s); the previous cut opened with ~4 s of the preceding lawn scene.
+- **Where was "Gathered on the lawn"? [open]** No source says. Clues: the lawn scene runs straight into the *African Dawn* sendoff on the reel (the trimmed 4 s are its tail), and Lester's parents appear in it, so it may well be a family visit during the same furlough, before sailing from the East Coast. Mid-1950s cars, a white rail fence, a clapboard house and deciduous woods fit New England (Maine?) but prove nothing. Not on the site.
 - The family close-up within the *African Dawn* sendoff runs 25:20.6–25:30.8 (`site/media/reels/hero-dawn.mp4`, used in the hero).
 - **Only clips that clearly show Lester and/or Winnie are published** (Nov 2026 decision): the *African Dawn* sendoff and "Gathered on the lawn". The other 2021 clips (meadow, picnic, snow, wagon, lake, reunion, canoe, river) were removed because nobody can confirm they appear in them. Captions never name individuals, with one exception from the family (Nov 2026): the "Gathered on the lawn" clip shows Lester's parents, Fannie and Everett, from 0:06, with several of Lester's siblings. This is family knowledge, not a public source, so it carries no citation.
 
