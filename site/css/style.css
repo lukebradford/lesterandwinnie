@@ -399,3 +399,22 @@ button.zoom:focus-visible { outline: 2px solid var(--indigo); outline-offset: 4p
   .map-box::after { content: "Swipe to explore the map →"; display: block; position: sticky; left: 0; margin-top: 0.4rem; font: 500 0.66rem var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
 }
 @media (max-width: 420px) { .stat b { font-size: 2rem; } }
+
+/* Family album rows (chapter i) and the full wedding party */
+.album { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; align-items: start; margin-top: 2rem; }
+.album .frame { padding: 0.45rem; }
+.album figcaption { font-size: 0.8rem; line-height: 1.4; }
+.album figcaption .caption-meta { font-size: 0.6rem; }
+.farm-photo { margin-top: 2rem; }
+.party { max-width: 60rem; margin: 3.5rem 0 0; }
+.party .frame { background: #edebe4; transform: rotate(-0.5deg); }
+.party figcaption { color: rgb(239 231 214 / 0.85); max-width: 40rem; }
+.party .caption-meta { color: rgb(239 231 214 / 0.6) !important; }
+.footnote { max-width: 40rem; margin: 3rem 0 0; padding-top: 0.9rem; border-top: 1px solid rgb(239 231 214 / 0.25); font-size: 0.85rem; color: rgb(239 231 214 / 0.65); }
+.footnote > a { text-decoration: none; margin-right: 0.3em; }
+.footnote:target { color: rgb(239 231 214 / 0.95); }
+sup.fn a { font-size: 1.3em; }
+.toolkit-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 30rem); gap: clamp(2rem, 5vw, 4rem); align-items: center; margin-bottom: 2rem; }
+.toolkit-head .toolkit-intro { margin-bottom: 0; }
+@media (max-width: 860px) { .toolkit-head { grid-template-columns: 1fr; } }
+@media (max-width: 420px) { .album { gap: 0.6rem; } .album figcaption { font-size: 0.74rem; } }

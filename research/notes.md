@@ -74,7 +74,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - **Years in Sierra Leone:** sources say 16 or 17. We use 17, which is Winnie's own figure.
 - **Lester's arrival:** Dec 20 or 21. We use 21, from Winnie's letter, and note the other date.
 - **Tail gunner:** trained only; never deployed. The family bio says Army Specialized Reserve Program at UMaine, planning to be a pilot; the NSA says he joined the Army in June 1944 and trained as a tail gunner.
-- **Khunjerab Pass altitude:** the memoir's photo caption (p158) says "17,000 ft."; the pass is actually about 4,693 m / 15,400 ft (Wikipedia, cited as source 14). The site caption now gives both figures **[resolved Nov 2026]**.
+- **Khunjerab Pass altitude:** the memoir's photo caption (p158) says "17,000 ft."; the pass is actually about 4,693 m / 15,400 ft. At the family's request (Nov 2026) the site no longer mentions the altitude, and the Wikipedia source was dropped.
 - **Departure for Sudan:** Lester's Nov 1979 letter (memoir) says they left Mt. Vernon in September 1979, reached Khartoum by Sept 24 and Juba on Oct 24. Lester's agroforestry essay says "In 1980". The site says "In October 1979". Winnie's letter also says "the four youngest are in school in various places", so "with the children grown" is loose.
 - **Mount Vernon move:** family bio says the WSU job offer came in 1971; the memoir's chapter heading says "Mt. Vernon 1972–1979" and the 1979 letter says "severing ties of 10 years". Winnie's residency ran to July 30, 1971.
 - **Pakistan base:** the memoir letters are headed "Tarbela, Pakistan"; the family bio says Peshawar.
@@ -95,6 +95,21 @@ Checked directly in the memoir text: 22 missionaries overnight; the 12:45 train 
 ## Letters chapter (Nov 2026)
 Excerpts on the site, checked against the page scans (PDF page numbers): London May 28, 1951 (p46); Rotifunk Dec 1952 wedding letter (p57–61; the shopping list is p61); Rotifunk Mar 1953, written by Lester (p62–63); Kayima Nov 1953 (p66); Kayima Feb 1955 (p69); Manjama Jul 1956, written by Lester (p73–75); Manjama Oct 1965 (p101); Juba Nov 1979, Lester then Winnie (p129); Tarbela Mar 1985 (p149); El Obeid Mar 1989 (p156–157). Letters not marked "(Written by Lester)" are Winnie's. Excerpts were chosen to avoid naming the children. Photo p65 (volunteers thatching the Kayima kitchen, 1953) is now used.
 Other good letters not yet used: Rotifunk May 1, 1952 (Christmas callers, "no roads into Rotifunk"); Kayima Aug 1953 snakes (Lester); Kayima May 1954 (prenatal clinic of 15 women); Manjama Dec 1964 (death of chief Alimany); Juba Sept 1979 (packing into four categories — names family); Tarbela Nov 1984 and Nov 1985 (village visit with the Pushto teacher).
+
+## Bogalusa and Baton Rouge (Nov 2026)
+- Family bio (source 3): "In 1968, the family moved to Bogalusa, Louisiana, where Lester worked for the Louisiana State University (LSU) extension service. For the following two years, they lived in Baton Rouge, where Lester earned his Doctorate of Education." NSA obituary (source 7) also says the family moved to Bogalusa in 1968. **[verified]**
+- Family bio: year-long furloughs in New York 1955–56, Maine 1959–60, Oklahoma 1963–64. Supports the "back to Africa, 1960" photo caption. **[verified]**
+- NSA obituary: smokejumping jumps in 1950 (7 training, 2 fire) and 1951 (2 refresher, 5 fire). The smokejumper photo is captioned "1950 or 1951". **[verified]**
+
+## Family photos (added at the family's request, Nov 2026)
+The spec now allows photos the family specifically asks for. They come from two shared Google Photos albums (links are in the Nov 2026 session request; do NOT publish the album links: they hold hundreds of photos of living relatives). Filenames were read from the download's Content-Disposition header. Captions credit "Bradford family collection" and never name children.
+- `family-bradfords-maine-farm` = FB_IMG_1552249350268.jpg (couple with nine children in a field; captioned "very likely" Everett and Fannie).
+- `family-lester-hebron-1943` = LesterHighschoolGrad.jpg; `family-lester-army` = 20190315_102656.jpg; `family-lester-smokejumper` = 20190315_102729.jpg.
+- `family-wedding-party-1952` = LesterWinnieWeddingParty3.JPG + LesterWinnieWeddingParty2.JPG, stitched with OpenCV (same slide scanned twice; Party2 supplies the right edge).
+- `family-kayima-oxen` = LesterInKayima.jpg; `family-back-to-africa-1960` = "Lester Family Off to Africa 1960.jpg"; `family-bo-pickup` = "…VBW Double-cab Pickup, Bo, Sierra Leone].jpg" (filename names three children; not published).
+- `family-winifred-toddler` = "Winifred toddler.jpg"; `family-red-bird-jeep` = "Winifred and jeep at Red Bird Mission.jpg".
+- Not used: 20190315_102643.jpg (a photographed book page about 1946 Yale freshmen; unclear which is Lester, and the text is someone else's book); LesterWinnieInEnid1949.JPG (its 1949 date conflicts with the memoir's 1950 meeting).
+- `winnie-kator-juba`: the K of "Kator" was cut off in the Sherbro original itself. The label was shifted 6px right and the K's stem redrawn; the image size and border are unchanged.
 
 ## Open questions
 - Which Sudan USAID project? (DAI; "manpower development"; Juba ag and forestry colleges.)
