@@ -103,12 +103,13 @@ Other good letters not yet used: Rotifunk May 1, 1952 (Christmas callers, "no ro
 
 ## Family photos (added at the family's request, Nov 2026)
 The spec now allows photos the family specifically asks for. They come from two shared Google Photos albums (links are in the Nov 2026 session request; do NOT publish the album links: they hold hundreds of photos of living relatives). Filenames were read from the download's Content-Disposition header. Captions credit "Bradford family collection" and never name children.
-- `family-bradfords-maine-farm` = FB_IMG_1552249350268.jpg (couple with nine children in a field; captioned "very likely" Everett and Fannie).
+- `family-bradfords-maine-farm` = FB_IMG_1552249350268.jpg. Family-confirmed (Nov 2026): Everett and Fannie Bradford with eight of their nine children; Lester is fifth from the right, in white shorts. Family knowledge, no public citation.
 - `family-lester-hebron-1943` = LesterHighschoolGrad.jpg; `family-lester-army` = 20190315_102656.jpg; `family-lester-smokejumper` = 20190315_102729.jpg.
 - `family-wedding-party-1952` = LesterWinnieWeddingParty3.JPG + LesterWinnieWeddingParty2.JPG, stitched with OpenCV (same slide scanned twice; Party2 supplies the right edge).
 - `family-kayima-oxen` = LesterInKayima.jpg; `family-back-to-africa-1960` = "Lester Family Off to Africa 1960.jpg"; `family-bo-pickup` = "…VBW Double-cab Pickup, Bo, Sierra Leone].jpg" (filename names three children; not published).
 - `family-winifred-toddler` = "Winifred toddler.jpg"; `family-red-bird-jeep` = "Winifred and jeep at Red Bird Mission.jpg".
 - Not used: 20190315_102643.jpg (a photographed book page about 1946 Yale freshmen; unclear which is Lester, and the text is someone else's book); LesterWinnieInEnid1949.JPG (its 1949 date conflicts with the memoir's 1950 meeting).
+- Removed again at the family's request (Nov 2026): the Hebron graduation and Army portraits, the Red Bird jeep photo, and the memoir's Enid 1951 photo. The ox photo was brightened (levels 14–178, gamma 0.8).
 - `winnie-kator-juba`: the K of "Kator" was cut off in the Sherbro original itself. The label was shifted 6px right and the K's stem redrawn; the image size and border are unchanged.
 
 ## Open questions

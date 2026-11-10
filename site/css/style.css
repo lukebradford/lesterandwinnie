@@ -400,21 +400,18 @@ button.zoom:focus-visible { outline: 2px solid var(--indigo); outline-offset: 4p
 }
 @media (max-width: 420px) { .stat b { font-size: 2rem; } }
 
-/* Family album rows (chapter i) and the full wedding party */
-.album { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; align-items: start; margin-top: 2rem; }
-.album .frame { padding: 0.45rem; }
-.album figcaption { font-size: 0.8rem; line-height: 1.4; }
-.album figcaption .caption-meta { font-size: 0.6rem; }
-.farm-photo { margin-top: 2rem; }
+/* Family photos at the head of each life (chapter i), and the full wedding party */
+.life-lead { margin: 0 0 2rem; }
+.life-lead.toddler { max-width: 17rem; }
+.sl-family { margin-top: 2.5rem; }
 .party { max-width: 60rem; margin: 3.5rem 0 0; }
 .party .frame { background: #edebe4; transform: rotate(-0.5deg); }
 .party figcaption { color: rgb(239 231 214 / 0.85); max-width: 40rem; }
 .party .caption-meta { color: rgb(239 231 214 / 0.6) !important; }
-.footnote { max-width: 40rem; margin: 3rem 0 0; padding-top: 0.9rem; border-top: 1px solid rgb(239 231 214 / 0.25); font-size: 0.85rem; color: rgb(239 231 214 / 0.65); }
-.footnote > a { text-decoration: none; margin-right: 0.3em; }
-.footnote:target { color: rgb(239 231 214 / 0.95); }
+.footnote { max-width: 60rem; margin: 1.2rem auto 0; font-size: 0.85rem; color: var(--ink-3); }
+.footnote > a { text-decoration: none; margin-right: 0.3em; color: var(--indigo); }
+.footnote:target { background: rgb(184 137 43 / 0.14); }
 sup.fn a { font-size: 1.3em; }
 .toolkit-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 30rem); gap: clamp(2rem, 5vw, 4rem); align-items: center; margin-bottom: 2rem; }
 .toolkit-head .toolkit-intro { margin-bottom: 0; }
 @media (max-width: 860px) { .toolkit-head { grid-template-columns: 1fr; } }
-@media (max-width: 420px) { .album { gap: 0.6rem; } .album figcaption { font-size: 0.74rem; } }
