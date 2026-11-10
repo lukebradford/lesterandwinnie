@@ -103,7 +103,7 @@ Other good letters not yet used: Rotifunk May 1, 1952 (Christmas callers, "no ro
 
 ## Family photos (added at the family's request, Nov 2026)
 The spec now allows photos the family specifically asks for. They come from two shared Google Photos albums (links are in the Nov 2026 session request; do NOT publish the album links: they hold hundreds of photos of living relatives). Filenames were read from the download's Content-Disposition header. Captions credit "Bradford family collection" and never name children.
-- `family-bradfords-maine-farm` = FB_IMG_1552249350268.jpg. Family-confirmed (Nov 2026): Everett and Fannie Bradford with eight of their nine children; Lester is fifth from the right, in white shorts. Family knowledge, no public citation.
+- `family-bradfords-maine-farm` = FB_IMG_1552249350268.jpg. Family-confirmed (Nov 2026): Everett and Fannie Bradford with eight of their nine children; Lester is the fourth child standing, in white shorts. Family knowledge, no public citation.
 - `family-lester-hebron-1943` = LesterHighschoolGrad.jpg; `family-lester-army` = 20190315_102656.jpg; `family-lester-smokejumper` = 20190315_102729.jpg.
 - `family-wedding-party-1952` = LesterWinnieWeddingParty3.JPG + LesterWinnieWeddingParty2.JPG, stitched with OpenCV (same slide scanned twice; Party2 supplies the right edge).
 - `family-kayima-oxen` = LesterInKayima.jpg; `family-back-to-africa-1960` = "Lester Family Off to Africa 1960.jpg"; `family-bo-pickup` = "…VBW Double-cab Pickup, Bo, Sierra Leone].jpg" (filename names three children; not published).
