@@ -88,7 +88,7 @@ Every fact on the site should trace back to a source listed here. Mark facts **[
 - Panama file 0:00–15:15 is Panama 1955. This is NOT the Bradfords. From 15:15 on it is Bradford footage. The *African Dawn* sendoff is at 24:37–25:31.
 - Fitzgerald file: 1970s canoe trips and gatherings.
 - The ship footage itself starts at 24:39.0 (scene cut found with ffmpeg's scene filter). The `african-dawn.mp4` reel now runs 24:39.1–25:31 (52 s); the previous cut opened with ~4 s of the preceding lawn scene.
-- **Where was "Gathered on the lawn"? [open]** No source says. Clues: the lawn scene runs straight into the *African Dawn* sendoff on the reel (the trimmed 4 s are its tail), and Lester's parents appear in it, so it may well be a family visit during the same furlough, before sailing from the East Coast. Mid-1950s cars, a white rail fence, a clapboard house and deciduous woods fit New England (Maine?) but prove nothing. Not on the site.
+- **Where was "Gathered on the lawn"? [superseded, see "Dating the 1964 departure" below]** No source says. Clues: the lawn scene runs straight into the *African Dawn* sendoff on the reel (the trimmed 4 s are its tail), and Lester's parents appear in it, so it may well be a family visit during the same furlough, before sailing from the East Coast. Mid-1950s cars, a white rail fence, a clapboard house and deciduous woods fit New England (Maine?) but prove nothing. Not on the site.
 - The family close-up within the *African Dawn* sendoff runs 25:20.6–25:30.8 (`site/media/reels/hero-dawn.mp4`, used in the hero).
 - **Only clips that clearly show Lester and/or Winnie are published** (Nov 2026 decision): the *African Dawn* sendoff and "Gathered on the lawn". The other 2021 clips (meadow, picnic, snow, wagon, lake, reunion, canoe, river) were removed because nobody can confirm they appear in them. Captions never name individuals, with one exception from the family (Nov 2026): the "Gathered on the lawn" clip shows Lester's parents, Fannie and Everett, from 0:06, with several of Lester's siblings. This is family knowledge, not a public source, so it carries no citation.
 
@@ -101,7 +101,7 @@ Other good letters not yet used: Rotifunk May 1, 1952 (Christmas callers, "no ro
 
 ## Bogalusa and Baton Rouge (Nov 2026)
 - Family bio (source 3): "In 1968, the family moved to Bogalusa, Louisiana, where Lester worked for the Louisiana State University (LSU) extension service. For the following two years, they lived in Baton Rouge, where Lester earned his Doctorate of Education." NSA obituary (source 7) also says the family moved to Bogalusa in 1968. **[verified]**
-- Family bio: year-long furloughs in New York 1955–56, Maine 1959–60, Oklahoma 1963–64. Supports the "back to Africa, 1960" photo caption. **[verified]**
+- Family bio: year-long furloughs in New York 1955–56, Maine 1959–60, Oklahoma 1963–64. **[verified]** (The "back to Africa, 1960" photo turned out to be 1964; see below.)
 - NSA obituary: smokejumping jumps in 1950 (7 training, 2 fire) and 1951 (2 refresher, 5 fire). The smokejumper photo is captioned "1950 or 1951". **[verified]**
 
 ## Family photos (added at the family's request, Nov 2026)
@@ -128,3 +128,9 @@ The spec now allows photos the family specifically asks for. They come from two 
 - Transcribed newspaper clippings with alt text.
 - A "then and now" for Rotifunk (Commons aerial of the hospital, CC BY-SA 4.0).
 - Dark mode. More reels with better color restoration.
+
+## Dating the 1964 departure (Nov 2026)
+- Ethan Bradford (family) pointed out that the "Lester Family Off to Africa 1960" photo shows five children, so it must be the 1964 departure after the Oklahoma furlough. Checked against the memoir: its 1959 Maine photo (p82) is captioned with four children; the only US-born child was born during the 1955–56 New York furlough, not in Maine (p70); the fifth child was born at Manjama after the 1960 return (p91). **[verified]** Site caption now reads 1964, Oklahoma, and notes the 1960 label.
+- Voyages: May 29, 1960, freighter from Portland, Maine, via the Azores (p82, p84). 1964: left Enid July 1, drove to Hebron, Maine, stayed with "Grandpa and Grandma Bradford"; sailing slipped from Aug 26 to Sept 9; boarded in New York Sept 9, sailed Sept 11, calling at Las Palmas, Dakar and Conakry (Dec 1964 letter, p99; p96). That fits Farrell Lines and the *African Dawn* (renamed 1965). **[inferred, very likely]** The film's close-up clearly shows at least four children; not used as evidence.
+- Same summer (p99): "the whole nine of the Bradford children, with parents and wives and children, got together for a second time in a year." The cousin who shared the films remembers "Gathered on the lawn" as Waterford, Maine, "around 1965". Waterford is near Hebron (both Oxford County). Caption: very likely summer 1964, family memory says Waterford. **[inferred]**
+- Family anecdote (Lester's sister, via the family, Nov 2026; no public source, so no citation): Lester lost his wallet just before the trip and the siblings took up a collection so the family had money for expenses. On the *African Dawn* caption.
