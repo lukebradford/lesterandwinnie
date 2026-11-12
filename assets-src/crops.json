@@ -24,12 +24,6 @@
   "bottom": 18,
   "left": 16
  },
- "memoir-together-late": {
-  "top": 8,
-  "right": 8,
-  "bottom": 8,
-  "left": 8
- },
  "memoir-wedding-1952": {
   "top": 10,
   "right": 24,
@@ -77,5 +71,11 @@
   "right": 12,
   "bottom": 64,
   "left": 22
+ },
+ "family-together-2012": {
+  "top": 760,
+  "right": 0,
+  "bottom": 0,
+  "left": 0
  }
 }

@@ -391,8 +391,10 @@ button.zoom:focus-visible { outline: 2px solid var(--indigo); outline-offset: 4p
 /* Closing quote */
 .coda-quote { padding: clamp(4rem, 12vh, 8rem) var(--gutter); background: var(--paper-2); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); text-align: center; }
 .coda-quote figure { margin: 0 auto; max-width: 46rem; }
-.coda-photo { max-width: 26rem; margin: 0 auto 2.5rem; }
+.coda-photo { max-width: 40rem; margin: 0 auto 2.5rem; }
 .coda-photo .frame { transform: rotate(-1deg); }
+.coda-photo-caption { margin: 0.9rem 0 0; font-size: 0.85rem; color: var(--ink-2); }
+.coda-photo-caption .caption-meta { display: block; color: var(--ink-3); margin-top: 0.35rem; font-size: 0.66rem; }
 .coda-quote blockquote { margin: 0; font: italic 350 clamp(1.6rem, 1rem + 2.4vw, 2.9rem)/1.25 var(--serif); letter-spacing: -0.005em; color: var(--moss); text-wrap: balance; }
 .coda-quote figcaption { margin-top: 1.3rem; color: var(--ink-3); }
 @media (max-width: 1100px) { .toolkit ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
