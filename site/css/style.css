@@ -336,6 +336,8 @@ button.zoom:focus-visible { outline: 2px solid var(--indigo); outline-offset: 4p
 /* ---------- Helpers (no inline styles: CSP forbids them) ---------- */
 .photo-small { margin-top: 2rem; max-width: 22rem; }
 .photo.offset { margin-top: 3rem; }
+.prose .clipping { margin: 2rem 0 2.2rem; }
+.prose .clipping .frame { padding: 0.5rem; }
 .pull-side { margin: 0; padding: 0; text-align: left; }
 .pull-side blockquote { font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.4rem); }
 .coda { max-width: 72rem; margin: 4rem auto 0; }

@@ -1,6 +1,6 @@
 # Lester & Winnie Bradford — memorial site
 
-Read `spec.txt` first. It is the brief. In short: this is a public memorial website for the user's grandparents, **Lester Ezra Bradford** (forester and agriculturalist, d. 2019) and **Dr. Winifred "Winnie" Smith Bradford** (physician, 1922–2020). When the user types **"Continue"**, look over the live site, pick one or more self-contained improvements, build them, verify them, and publish them.
+Read `spec.txt` first. It is the brief. In short: this is a public memorial website for the user's grandparents, **Lester Ezra Bradford** (forester and agriculturalist, d. 2019) and **Dr. Winifred "Winnie" Smith Bradford** (physician, 1922–2020). When the user types **"Continue"**, look over the live site, pick one or more self-contained improvements, build them, verify them, and publish them **only after the user explicitly approves publishing** (spec, Nov 2026).
 
 ## Hard rules
 - **Style:** write "sendoff" (one word). Avoid em dashes; use commas, colons or a new sentence. Chapter kickers put the years first ("1951 to 1968 · Rotifunk · Kayima"). Don't abbreviate U.S. states. Map labels carry the state or country ("Omaha, Nebraska", "Juba, Sudan"). Every ampersand in a display title uses `<span class="amp">&amp;</span>`. "The Skagit" is genuine local usage for the river and valley.
@@ -38,7 +38,7 @@ The source files are `Panama 1955 & Bradford home movies.m4v.mp4` and `Fitzgeral
 1. `cd site && python3 -m http.server 8765` (pick another port if 8765 is already serving a different project, and check the first screenshot is actually this site), then run `node tools/shot.mjs` and look at the screenshots at desktop and mobile widths.
 2. The page must have no console errors and no 404s. The CSP in `<meta http-equiv>` forbids inline styles and scripts and all third-party origins. Keep it that way: add CSS classes instead of `style=""`.
 3. Respect `prefers-reduced-motion`. Make sure the page still reads without JS.
-4. Commit and push to `main`, then confirm the Pages deploy succeeded with `gh run list`. The live URL is https://lukebradford.github.io/lesterandwinnie/
+4. Ask the user for approval. Once they approve, commit and push to `main`, then confirm the Pages deploy succeeded with `gh run list`. The live URL is https://lukebradford.github.io/lesterandwinnie/
 
 ## Ideas backlog
 See `research/notes.md` → "Next ideas".
