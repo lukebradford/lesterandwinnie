@@ -356,7 +356,7 @@ button.zoom:focus-visible { outline: 2px solid var(--indigo); outline-offset: 4p
 .nowrap { white-space: nowrap; }
 .photo-narrow.tilt-l { margin-left: auto; }
 
-/* Lester’s work in Sierra Leone */
+/* Lester’s work */
 .toolkit { max-width: 72rem; margin: clamp(3.5rem, 9vh, 6rem) auto 0; padding-top: 2.5rem; border-top: 1px solid var(--ink); }
 .toolkit h3 { font: 400 clamp(1.8rem, 1.2rem + 2vw, 2.8rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0 0 0.6rem; }
 .toolkit-intro { max-width: 40rem; color: var(--ink-2); margin: 0 0 2rem; }
